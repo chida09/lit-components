@@ -5,24 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Lit App</title>
-    <script type="module" src="/src/my-element.ts"></script>
     <script type="module" src="/src/button/base-button.ts"></script>
   </head>
   <body>
     <div>
-      <my-element>
-        <p>This is child content</p>
-      </my-element>
-    </div>
-    <div>
-      <base-button onclick="buttonClick()" my-prop='this prop string'>
-        <p>Save</p>
-      </base-button>
+      <base-button onclick="handleClick()" name='default'></base-button>
     </div>
   </body>
   <script>
-    function buttonClick(){
-      console.log('base-button')
-    }
+    const handleClick = () => console.log('base-button')
   </script>
 </html>
