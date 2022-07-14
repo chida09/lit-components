@@ -24,8 +24,12 @@
     "vite": "^2.9.9",
     "vite-plugin-mkcert": "^1.7.2"
   },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ktsmy/study-github-packages.git"
+    "url": "git://github.com/chida09/lit-components.git"
   }
 }
