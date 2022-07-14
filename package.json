@@ -23,5 +23,9 @@
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vite-plugin-mkcert": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ktsmy/study-github-packages.git"
   }
 }
