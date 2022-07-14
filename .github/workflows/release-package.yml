@@ -24,13 +24,13 @@ jobs:
           node-version: 14.x
           registry-url: https://npm.pkg.github.com
 
-      # 必要なモジュール（typescript）をインストール
+      # 必要なモジュールをインストール
       - name: install node_modules
         run: npm install
 
       # トランスパイルを実行
       - name: build
-        run: npx tsc
+        run: npm run build
 
       # パッケージとして公開する
       - name: publish
