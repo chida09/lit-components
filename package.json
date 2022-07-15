@@ -1,6 +1,5 @@
 {
   "name": "lit-components",
-  "private": true,
   "version": "0.0.1",
   "main": "dist/my-element.es.js",
   "exports": {
