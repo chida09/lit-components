@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chida09/lit-components.git"
+    "url": "https://github.com/chida09/lit-components.git"
   }
 }
