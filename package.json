@@ -1,6 +1,6 @@
 {
   "name": "@chida09/lit-components",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "dist/lit-components.es.js",
   "exports": {
     ".": "./dist/lit-components.es.js"
