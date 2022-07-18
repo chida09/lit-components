@@ -1,5 +1,5 @@
 {
-  "name": "lit-components",
+  "name": "@chida09/lit-components",
   "version": "0.0.1",
   "main": "dist/my-element.es.js",
   "exports": {
