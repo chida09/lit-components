@@ -1,5 +1,5 @@
 {
-  "name": "@chida09/lit-components",
+  "name": "lit-components",
   "version": "0.0.1",
   "main": "dist/my-element.es.js",
   "exports": {
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chida09/lit-components.git",
+    "url": "git+https://github.com/chida09/lit-components.git"
   }
 }
