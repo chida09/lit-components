@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: build
-          npx tsc && npx vite build
+        run: npx tsc && npx vite build
 
       - name: publish
         run: npm publish
