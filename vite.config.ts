@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [ mkcert() ],
   build: {
     lib: {
-      entry: 'src/my-element.ts',
+      entry: 'src/main.ts',
       formats: ['es']
     },
     rollupOptions: {
