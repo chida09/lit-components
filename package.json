@@ -24,6 +24,7 @@
     "vite-plugin-mkcert": "^1.7.2"
   },
   "publishConfig": {
+    "access": "restricted",
     "@chida09:registry": "https://npm.pkg.github.com"
   },
   "repository": {
