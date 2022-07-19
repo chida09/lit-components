@@ -1,3 +1,3 @@
-export const add = (num: number) => {
-  return 1 + num
-}
+import { BaseButton } from './button/base-button'
+
+export { BaseButton }
